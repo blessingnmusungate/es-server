@@ -202,4 +202,4 @@ def index():
     return jsonify({"message": "Student Dropout Risk Detector API", "status": "running"}), 200
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8000)
+    app.run(debug=False, port=8000)
