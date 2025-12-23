@@ -1,0 +1,101 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "conditions": {
+        "ExpectedGraduationGrade": "Low"
+      },
+      "prediction": "Dropout",
+      "actions": ["Immediate academic counselling"]
+    },
+    {
+      "id": 2,
+      "conditions": {
+        "WeeklyStudyHours": "Low"
+      },
+      "prediction": "Dropout",
+      "actions": ["Assign mandatory study support plan"]
+    },
+    {
+      "id": 3,
+      "conditions": {
+        "ExpectedGraduationGrade": "High"
+      },
+      "prediction": "Graduate",
+      "actions": ["Offer research or leadership opportunities"]
+    },
+    {
+      "id": 4,
+      "conditions": {
+        "WeeklyStudyHours": "High"
+      },
+      "prediction": "Graduate",
+      "actions": ["Encourage continuation of study habits"]
+    },
+    {
+      "id": 5,
+      "conditions": {
+        "Scholarship": "None",
+        "FinancialSupport": "Low"
+      },
+      "prediction": "Dropout",
+      "actions": ["Financial counselling", "Payment plan referral"]
+    },
+    {
+      "id": 6,
+      "conditions": {
+        "Scholarship": "Full"
+      },
+      "prediction": "Graduate",
+      "actions": ["Recommend for tutoring or mentoring roles"]
+    },
+    {
+      "id": 7,
+      "conditions": {
+        "SeminarParticipation": "Low"
+      },
+      "prediction": "Dropout",
+      "actions": ["Mandatory academic engagement program"]
+    },
+    {
+      "id": 8,
+      "conditions": {
+        "ReadsNonAcademic": "Low"
+      },
+      "prediction": "Dropout",
+      "actions": ["Reading habit improvement program"]
+    },
+    {
+      "id": 9,
+      "conditions": {
+        "ReadsNonAcademic": "High"
+      },
+      "prediction": "Graduate",
+      "actions": ["Recommend enrichment programs"]
+    },
+    {
+      "id": 10,
+      "conditions": {
+        "ExpectedGraduationGrade": "Medium"
+      },
+      "prediction": "StayEnrolled",
+      "actions": ["Provide general academic coaching"]
+    },
+    {
+      "id": 11,
+      "conditions": {
+        "WeeklyStudyHours": "Medium"
+      },
+      "prediction": "StayEnrolled",
+      "actions": ["Encourage consistency in study routines"]
+    },
+    {
+      "id": 12,
+      "conditions": {
+        "HighSchoolType": "Private"
+      },
+      "prediction": "Graduate",
+      "actions": ["Offer optional advanced coursework"]
+    }
+  ]
+}
