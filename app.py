@@ -141,8 +141,8 @@ def dropout_risk():
         # Accept any facts dynamically from the request
         provided_facts = {k: v for k, v in data.items() if v is not None}
         
-        if len(provided_facts) < 3:
-            return jsonify({"error": "At least 3 facts are required"}), 400
+        if len(provided_facts) < 2:
+            return jsonify({"error": "At least 2 facts are required"}), 400
         
         # Load rules
         rules = load_rules()
