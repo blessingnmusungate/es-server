@@ -3,99 +3,99 @@
     {
       "id": 1,
       "conditions": {
-        "ExpectedGraduationGrade": "Low"
+        "AcademicProgress": "Low",
+        "TuitionFeesUpToDate": "No"
       },
       "prediction": "Dropout",
-      "actions": ["Immediate academic counselling"]
+      "actions": [
+        "Immediate academic intervention",
+        "Immediate financial counseling and payment plan"
+      ]
     },
     {
       "id": 2,
       "conditions": {
-        "WeeklyStudyHours": "Low"
+        "AcademicProgress": "Low",
+        "AssessmentParticipation": "Low"
       },
       "prediction": "Dropout",
-      "actions": ["Assign mandatory study support plan"]
+      "actions": [
+        "Mandatory academic recovery program",
+        "Structured assessment engagement plan"
+      ]
     },
     {
       "id": 3,
       "conditions": {
-        "ExpectedGraduationGrade": "High"
+        "AcademicProgress": "Low"
       },
-      "prediction": "Graduate",
-      "actions": ["Offer research or leadership opportunities"]
+      "prediction": "Dropout",
+      "actions": ["Assign intensive academic counseling"]
     },
     {
       "id": 4,
       "conditions": {
-        "WeeklyStudyHours": "High"
+        "AcademicProgress": "High",
+        "EnrollmentLoad": "FullTime",
+        "AssessmentParticipation": "High"
       },
       "prediction": "Graduate",
-      "actions": ["Encourage continuation of study habits"]
+      "actions": [
+        "Recommend honors or research opportunities",
+        "Offer leadership development programs"
+      ]
     },
     {
       "id": 5,
       "conditions": {
-        "Scholarship": "None",
-        "FinancialSupport": "Low"
+        "AcademicProgress": "High"
       },
-      "prediction": "Dropout",
-      "actions": ["Financial counselling", "Payment plan referral"]
+      "prediction": "Graduate",
+      "actions": ["Encourage continuation of effective academic strategies"]
     },
     {
       "id": 6,
       "conditions": {
-        "Scholarship": "Full"
+        "EnrollmentLoad": "PartTime",
+        "TuitionFeesUpToDate": "No"
       },
-      "prediction": "Graduate",
-      "actions": ["Recommend for tutoring or mentoring roles"]
+      "prediction": "Dropout",
+      "actions": ["Review financial barriers", "Adjust enrollment plan"]
     },
     {
       "id": 7,
       "conditions": {
-        "SeminarParticipation": "Low"
+        "PriorAcademicAchievement": "Low",
+        "AcademicProgress": "Medium"
       },
-      "prediction": "Dropout",
-      "actions": ["Mandatory academic engagement program"]
+      "prediction": "StayEnrolled",
+      "actions": [
+        "Provide foundational academic support",
+        "Assign mentoring program"
+      ]
     },
     {
       "id": 8,
       "conditions": {
-        "ReadsNonAcademic": "Low"
+        "AcademicProgress": "Medium"
       },
-      "prediction": "Dropout",
-      "actions": ["Reading habit improvement program"]
+      "prediction": "StayEnrolled",
+      "actions": [
+        "Offer general academic coaching",
+        "Monitor academic progress"
+      ]
     },
     {
       "id": 9,
       "conditions": {
-        "ReadsNonAcademic": "High"
-      },
-      "prediction": "Graduate",
-      "actions": ["Recommend enrichment programs"]
-    },
-    {
-      "id": 10,
-      "conditions": {
-        "ExpectedGraduationGrade": "Medium"
+        "AgeGroup": ">26",
+        "EnrollmentLoad": "PartTime"
       },
       "prediction": "StayEnrolled",
-      "actions": ["Provide general academic coaching"]
-    },
-    {
-      "id": 11,
-      "conditions": {
-        "WeeklyStudyHours": "Medium"
-      },
-      "prediction": "StayEnrolled",
-      "actions": ["Encourage consistency in study routines"]
-    },
-    {
-      "id": 12,
-      "conditions": {
-        "HighSchoolType": "Private"
-      },
-      "prediction": "Graduate",
-      "actions": ["Offer optional advanced coursework"]
+      "actions": [
+        "Offer flexible scheduling",
+        "Provide adult learner support services"
+      ]
     }
   ]
 }

@@ -1,11 +1,8 @@
 {
-  "ExpectedGraduationGrade": ["Low", "Medium", "High"],
-  "WeeklyStudyHours": ["Low", "Medium", "High"],
-  "Scholarship": ["None", "Partial", "Full"],
-  "FinancialSupport": ["Low", "Medium", "High"],
-  "SeminarParticipation": ["Low", "Medium", "High"],
-  "ReadsNonAcademic": ["Low", "Medium", "High"],
-  "HighSchoolType": ["State", "Private", "Other"],
-  "AgeGroup": ["18-21", "22-25", ">26"],
-  "Sex": ["Male", "Female"]
+  "AcademicProgress": ["Low", "Medium", "High"],
+  "TuitionFeesUpToDate": ["Yes", "No"],
+  "EnrollmentLoad": ["FullTime", "PartTime"],
+  "AssessmentParticipation": ["Low", "High"],
+  "PriorAcademicAchievement": ["Low", "Medium", "High"],
+  "AgeGroup": ["18-21", "22-25", ">26"]
 }
